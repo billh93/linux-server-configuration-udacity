@@ -43,8 +43,8 @@ IP Address: 34.195.138.2
 4. `sudo nano /etc/sudoers.d/grader`, type in `grader ALL=(ALL:ALL) ALL`, save and quit
 
 ## Set ssh login using keys
-1. Login into grader using `su -l grader`, type in password if any
-2. Open LightsailDefaultPrivateKey.pem using `sudo cat LightsailDefaultPrivateKey.pem`
+1. Copy the authorized key content from ubuntu account using `cd sudo cat ~/.ssh/authorized_keys`
+1. Login into grader using another terminal window and logged in as ubuntu user. Type in `su -l grader`, insert password if any
 3. Copy content
 
 	On remote server:
